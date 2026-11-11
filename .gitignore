@@ -1,0 +1,25 @@
+﻿# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Simulation datasets
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.joblib
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Generated results
+E2_continuous_20k_*/
+run_*/
+outputs/
+checkpoints/
+
+# Large generated exports
+*.csv.gz
