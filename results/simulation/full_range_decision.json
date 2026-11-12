@@ -1,0 +1,30 @@
+{
+  "scope": "full simulation test range, every count 1..19",
+  "primary_scope_is_1to19": true,
+  "paired_test_samples": true,
+  "counts_evaluated": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "magnitude_model_fails_to_beat_global_median_count_conditions": 13,
+  "decision_rule": "GO requires stable full-range classification and useful sample-dependent magnitude reconstruction beyond deployable constants without widespread invalid magnitudes.",
+  "decision": "CONDITIONAL GO for real-data domain-shift diagnostics only; quantitative real magnitude reconstruction is not validated.",
+  "one_to_four_role": "secondary application-specific subgroup only"
+}

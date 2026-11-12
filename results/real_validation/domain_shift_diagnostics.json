@@ -1,0 +1,23 @@
+{
+  "raw_sim_reference": {
+    "absolute_normalized_feature_median": 0.9742326736450195,
+    "absolute_normalized_feature_p95": 1.3147513329982747,
+    "absolute_normalized_feature_max": 1.5530065298080444,
+    "component_fraction_outside_simulation_0p5_to_99p5_percentiles": 0.12204130860847279,
+    "sample_fraction_with_any_component_outside": 0.9614427860696517
+  },
+  "compensated_sim_reference": {
+    "absolute_normalized_feature_median": 1.3847504258155823,
+    "absolute_normalized_feature_p95": 4.003114819526671,
+    "absolute_normalized_feature_max": 7.10205602645874,
+    "component_fraction_outside_simulation_0p5_to_99p5_percentiles": 0.5538594904266546,
+    "sample_fraction_with_any_component_outside": 1.0
+  },
+  "compensated_real_reference": {
+    "absolute_normalized_feature_median": 0.9607994854450226,
+    "absolute_normalized_feature_p95": 1.7907252311706543,
+    "absolute_normalized_feature_max": 2.317338466644287,
+    "component_fraction_outside_simulation_0p5_to_99p5_percentiles": 0.014360018091361375,
+    "sample_fraction_with_any_component_outside": 0.18407960199004975
+  }
+}

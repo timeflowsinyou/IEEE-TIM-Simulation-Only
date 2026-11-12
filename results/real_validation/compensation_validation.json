@@ -1,0 +1,16 @@
+{
+  "status": "PASS_WITH_PROVENANCE_CAVEAT",
+  "forward_law": "Zcoupled=1/(1/Zintrinsic + Gp + j*2*pi*f*Cp)",
+  "inverse_law": "Zintrinsic=1/(1/Zmeasured - Gp - j*2*pi*f*Cp)",
+  "space": "admittance; never impedance subtraction",
+  "Gp_unit": "S",
+  "Cp_unit": "F",
+  "frequency_hz": 100000.0,
+  "Gp_nonnegative": true,
+  "Cp_nonnegative": true,
+  "applied_exactly_once": true,
+  "calibration_pair_order": "91 clockwise canonical pairs, established by existing code lineage",
+  "caveat": "joblib has no embedded pair labels; order is not self-describing",
+  "inverse_nonpositive_real_admittance_fraction": 0.2341725438740364,
+  "inverse_nonpositive_imag_admittance_fraction": 0.0
+}

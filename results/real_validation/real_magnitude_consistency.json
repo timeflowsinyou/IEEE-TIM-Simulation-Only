@@ -1,0 +1,351 @@
+{
+  "raw_sim_reference": {
+    "prediction_finite": true,
+    "delta_min": -1.4676278829574585,
+    "delta_max": 0.6861132383346558,
+    "delta_mean": -0.43028727173805237,
+    "delta_std": 0.39351823925971985,
+    "invalid_reconstructed_count": 1413,
+    "invalid_reconstructed_fraction": 0.0924980361351139,
+    "no_load_delta_abs_median": 0.29465436935424805,
+    "pressed_0p5_delta_median": -0.5913971662521362,
+    "pressed_1p0_delta_median": -0.6046309471130371,
+    "note": "No real intrinsic ground truth; no regression MAE/RMSE is computed.",
+    "by_pressed_sensor_count": {
+      "1": {
+        "sample_count": 39,
+        "predicted_delta_median": -0.3158189058303833,
+        "predicted_delta_std": 0.3885935842990875,
+        "invalid_fraction": 0.07152496626180836
+      },
+      "2": {
+        "sample_count": 147,
+        "predicted_delta_median": -0.34948182106018066,
+        "predicted_delta_std": 0.39458292722702026,
+        "invalid_fraction": 0.08950948800572861
+      },
+      "3": {
+        "sample_count": 361,
+        "predicted_delta_median": -0.3794325888156891,
+        "predicted_delta_std": 0.39193975925445557,
+        "invalid_fraction": 0.09491179472226272
+      },
+      "4": {
+        "sample_count": 130,
+        "predicted_delta_median": -0.41193631291389465,
+        "predicted_delta_std": 0.394903302192688,
+        "invalid_fraction": 0.09352226720647773
+      },
+      "5": {
+        "sample_count": 33,
+        "predicted_delta_median": -0.39226803183555603,
+        "predicted_delta_std": 0.41337093710899353,
+        "invalid_fraction": 0.10047846889952153
+      },
+      "6": {
+        "sample_count": 31,
+        "predicted_delta_median": -0.3846672773361206,
+        "predicted_delta_std": 0.39474397897720337,
+        "invalid_fraction": 0.09168081494057725
+      },
+      "7": {
+        "sample_count": 1,
+        "predicted_delta_median": -0.49350735545158386,
+        "predicted_delta_std": 0.4137847423553467,
+        "invalid_fraction": 0.10526315789473684
+      },
+      "8": {
+        "sample_count": 21,
+        "predicted_delta_median": -0.4070699214935303,
+        "predicted_delta_std": 0.3965567946434021,
+        "invalid_fraction": 0.09774436090225563
+      },
+      "9": {
+        "sample_count": 17,
+        "predicted_delta_median": -0.5275627374649048,
+        "predicted_delta_std": 0.3751051127910614,
+        "invalid_fraction": 0.09907120743034056
+      },
+      "10": {
+        "sample_count": 18,
+        "predicted_delta_median": -0.5625974535942078,
+        "predicted_delta_std": 0.36012306809425354,
+        "invalid_fraction": 0.09064327485380116
+      },
+      "11": {
+        "sample_count": 1,
+        "predicted_delta_median": -0.6097055077552795,
+        "predicted_delta_std": 0.36365360021591187,
+        "invalid_fraction": 0.10526315789473684
+      },
+      "12": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "13": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "14": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "15": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "16": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "17": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "18": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "19": {
+        "sample_count": 0,
+        "status": "not measured"
+      }
+    }
+  },
+  "compensated_sim_reference": {
+    "prediction_finite": true,
+    "delta_min": -1.059575080871582,
+    "delta_max": 0.8457061052322388,
+    "delta_mean": -0.04292726889252663,
+    "delta_std": 0.3216436207294464,
+    "invalid_reconstructed_count": 6,
+    "invalid_reconstructed_fraction": 0.00039277297721916735,
+    "no_load_delta_abs_median": 0.2132565975189209,
+    "pressed_0p5_delta_median": -0.21401646733283997,
+    "pressed_1p0_delta_median": -0.19053590297698975,
+    "note": "No real intrinsic ground truth; no regression MAE/RMSE is computed.",
+    "by_pressed_sensor_count": {
+      "1": {
+        "sample_count": 39,
+        "predicted_delta_median": 0.015070810914039612,
+        "predicted_delta_std": 0.3210069537162781,
+        "invalid_fraction": 0.0
+      },
+      "2": {
+        "sample_count": 147,
+        "predicted_delta_median": -0.014544286765158176,
+        "predicted_delta_std": 0.32253143191337585,
+        "invalid_fraction": 0.0
+      },
+      "3": {
+        "sample_count": 361,
+        "predicted_delta_median": -0.02664303034543991,
+        "predicted_delta_std": 0.3186763823032379,
+        "invalid_fraction": 0.000291587694999271
+      },
+      "4": {
+        "sample_count": 130,
+        "predicted_delta_median": -0.04270072281360626,
+        "predicted_delta_std": 0.3167222738265991,
+        "invalid_fraction": 0.0016194331983805667
+      },
+      "5": {
+        "sample_count": 33,
+        "predicted_delta_median": -0.08751179277896881,
+        "predicted_delta_std": 0.30538058280944824,
+        "invalid_fraction": 0.0
+      },
+      "6": {
+        "sample_count": 31,
+        "predicted_delta_median": -0.07121210545301437,
+        "predicted_delta_std": 0.3142506778240204,
+        "invalid_fraction": 0.0
+      },
+      "7": {
+        "sample_count": 1,
+        "predicted_delta_median": -0.135391503572464,
+        "predicted_delta_std": 0.325978547334671,
+        "invalid_fraction": 0.0
+      },
+      "8": {
+        "sample_count": 21,
+        "predicted_delta_median": -0.1724485456943512,
+        "predicted_delta_std": 0.348762571811676,
+        "invalid_fraction": 0.0
+      },
+      "9": {
+        "sample_count": 17,
+        "predicted_delta_median": -0.12264375388622284,
+        "predicted_delta_std": 0.3379666805267334,
+        "invalid_fraction": 0.0
+      },
+      "10": {
+        "sample_count": 18,
+        "predicted_delta_median": -0.17730367183685303,
+        "predicted_delta_std": 0.34279265999794006,
+        "invalid_fraction": 0.0
+      },
+      "11": {
+        "sample_count": 1,
+        "predicted_delta_median": -0.28397443890571594,
+        "predicted_delta_std": 0.3482843339443207,
+        "invalid_fraction": 0.0
+      },
+      "12": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "13": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "14": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "15": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "16": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "17": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "18": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "19": {
+        "sample_count": 0,
+        "status": "not measured"
+      }
+    }
+  },
+  "compensated_real_reference": {
+    "prediction_finite": true,
+    "delta_min": -1.2874500751495361,
+    "delta_max": 0.6072474122047424,
+    "delta_mean": -0.24792630970478058,
+    "delta_std": 0.3168443739414215,
+    "invalid_reconstructed_count": 255,
+    "invalid_reconstructed_fraction": 0.01669285153181461,
+    "no_load_delta_abs_median": 0.04598551243543625,
+    "pressed_0p5_delta_median": -0.6554655432701111,
+    "pressed_1p0_delta_median": -0.6988080739974976,
+    "note": "No real intrinsic ground truth; no regression MAE/RMSE is computed.",
+    "by_pressed_sensor_count": {
+      "1": {
+        "sample_count": 39,
+        "predicted_delta_median": -0.06329749524593353,
+        "predicted_delta_std": 0.22730988264083862,
+        "invalid_fraction": 0.002699055330634278
+      },
+      "2": {
+        "sample_count": 147,
+        "predicted_delta_median": -0.1403733491897583,
+        "predicted_delta_std": 0.2890438437461853,
+        "invalid_fraction": 0.011815252416756176
+      },
+      "3": {
+        "sample_count": 361,
+        "predicted_delta_median": -0.19231772422790527,
+        "predicted_delta_std": 0.3067636489868164,
+        "invalid_fraction": 0.017057880157457354
+      },
+      "4": {
+        "sample_count": 130,
+        "predicted_delta_median": -0.21777081489562988,
+        "predicted_delta_std": 0.31655237078666687,
+        "invalid_fraction": 0.018218623481781375
+      },
+      "5": {
+        "sample_count": 33,
+        "predicted_delta_median": -0.18218675255775452,
+        "predicted_delta_std": 0.3561974763870239,
+        "invalid_fraction": 0.017543859649122806
+      },
+      "6": {
+        "sample_count": 31,
+        "predicted_delta_median": -0.20804452896118164,
+        "predicted_delta_std": 0.36172550916671753,
+        "invalid_fraction": 0.022071307300509338
+      },
+      "7": {
+        "sample_count": 1,
+        "predicted_delta_median": -0.18007878959178925,
+        "predicted_delta_std": 0.37217801809310913,
+        "invalid_fraction": 0.0
+      },
+      "8": {
+        "sample_count": 21,
+        "predicted_delta_median": -0.4173271954059601,
+        "predicted_delta_std": 0.4090788960456848,
+        "invalid_fraction": 0.06015037593984962
+      },
+      "9": {
+        "sample_count": 17,
+        "predicted_delta_median": -0.47842544317245483,
+        "predicted_delta_std": 0.3585107922554016,
+        "invalid_fraction": 0.015479876160990712
+      },
+      "10": {
+        "sample_count": 18,
+        "predicted_delta_median": -0.49850642681121826,
+        "predicted_delta_std": 0.3471730351448059,
+        "invalid_fraction": 0.014619883040935672
+      },
+      "11": {
+        "sample_count": 1,
+        "predicted_delta_median": -0.5094608664512634,
+        "predicted_delta_std": 0.38682201504707336,
+        "invalid_fraction": 0.0
+      },
+      "12": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "13": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "14": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "15": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "16": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "17": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "18": {
+        "sample_count": 0,
+        "status": "not measured"
+      },
+      "19": {
+        "sample_count": 0,
+        "status": "not measured"
+      }
+    }
+  },
+  "difference_compensated_sim_reference_minus_raw_sim_reference": {
+    "mae_delta": 0.45110103487968445,
+    "rmse_delta": 0.5556589961051941,
+    "maximum_absolute_delta": 1.5212087631225586
+  },
+  "difference_compensated_real_reference_minus_compensated_sim_reference": {
+    "mae_delta": 0.35359954833984375,
+    "rmse_delta": 0.4330972135066986,
+    "maximum_absolute_delta": 1.3190982341766357
+  }
+}

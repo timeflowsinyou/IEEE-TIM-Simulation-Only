@@ -1,0 +1,13 @@
+{
+  "simulation_uses_fixed_reference": true,
+  "real_reference_samples": 5,
+  "real_reference_method": "component-wise median of five genuine no-load rows after the same one-time compensation",
+  "loaded_and_real_reference_compensated_consistently": true,
+  "conditions": [
+    "raw_sim_reference",
+    "compensated_sim_reference",
+    "compensated_real_reference"
+  ],
+  "no_label_based_normalization": true,
+  "simulation_to_real_reference_relative_l2": 0.9266427498070896
+}

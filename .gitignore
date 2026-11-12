@@ -15,11 +15,34 @@ __pycache__/
 *.pth
 *.ckpt
 
+# Local archive preparation backup
+README.previous.local.md
+
+# Raw/private measurement and calibration inputs
+Data/
+*_Measurement*.txt
+*.xlsx
+*.xls
+
 # Generated results
 E2_continuous_20k_*/
 run_*/
 outputs/
 checkpoints/
+E2_N7B_binary_intrinsic_magnitude_*/
+E2_N7B_full_1to19_analysis_*/
+E2_N7B_real_compensated_validation_*/
+E2_N7K11_binary_continuous_*/
+E2_continuous_physics_audit_*/
+E2_load_impedance_diagnostic_*/
+Sequential_Run_Logs/
+batch_logs/
+batch_results/
+
+# Generic generated experiment directories
+*_results/
+results_continuous*/
 
 # Large generated exports
 *.csv.gz
+*.log

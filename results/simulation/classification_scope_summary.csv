@@ -1,0 +1,5 @@
+scope,model,sample_count,micro_f1,macro_f1_all_19_sensors,exact_match_accuracy,minimum_per_sensor_pressed_recall,sensors_with_positive_recall_support,false_positive_entries,false_negative_entries
+full_test_all_counts,original_N7B_load_baseline,2990,0.9108211673053171,0.9112200218965464,0.3220735785953177,0.9108196721311476,19,4373,1259
+full_test_all_counts,N7B_magnitude_model,2990,0.9089991164962766,0.9094542167557783,0.30501672240802674,0.9201497192763568,19,4556,1212
+secondary_1to4_subgroup,original_N7B_load_baseline,628,0.9698492462311558,0.9695329381926211,0.9092356687898089,0.9436619718309859,19,65,31
+secondary_1to4_subgroup,N7B_magnitude_model,628,0.9673366834170855,0.9672199146630216,0.8885350318471338,0.8809523809523809,19,69,35
